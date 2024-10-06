@@ -1,0 +1,19 @@
+{
+    "name": "venost/allegro-api-client",
+    "description": "PHP SDK for Allegro's REST API",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "venost"
+        }
+    ],
+    "require": {
+        "php": ">=8.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "VenosT\\AllegroApiClient\\": "src"
+        }
+    }
+}
