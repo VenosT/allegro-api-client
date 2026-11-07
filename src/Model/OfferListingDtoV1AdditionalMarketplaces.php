@@ -159,7 +159,7 @@ class OfferListingDtoV1AdditionalMarketplaces implements ModelInterface, ArrayAc
      */
     public function listInvalidProperties()
     {
-        $invalidProperties = parent::listInvalidProperties();
+        $invalidProperties = [];
 
         return $invalidProperties;
     }

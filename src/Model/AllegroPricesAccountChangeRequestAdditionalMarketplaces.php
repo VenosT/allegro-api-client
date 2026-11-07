@@ -146,9 +146,9 @@ class AllegroPricesAccountChangeRequestAdditionalMarketplaces implements ModelIn
     public function getStatusAllowableValues()
     {
         return [
-            self::STATUS_ALLOWED
+            self::STATUS_ALLOWED,
             self::STATUS_DENIED
-        ]
+        ];
     }
 
     /**

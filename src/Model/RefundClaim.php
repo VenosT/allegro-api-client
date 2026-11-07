@@ -210,9 +210,9 @@ class RefundClaim implements ModelInterface, ArrayAccess
     public function getTypeAllowableValues()
     {
         return [
-            self::TYPE_MANUAL
+            self::TYPE_MANUAL,
             self::TYPE_AUTOMATIC
-        ]
+        ];
     }
 
     /**

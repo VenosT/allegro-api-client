@@ -155,14 +155,14 @@ class OfferEventEndedOfferPublication implements ModelInterface, ArrayAccess
     public function getEndedByAllowableValues()
     {
         return [
-            self::ENDED_BY_USER
-            self::ENDED_BY_ADMIN
-            self::ENDED_BY_EXPIRATION
-            self::ENDED_BY_EMPTY_STOCK
-            self::ENDED_BY_PRODUCT_DETACHMENT
-            self::ENDED_BY_ERROR
+            self::ENDED_BY_USER,
+            self::ENDED_BY_ADMIN,
+            self::ENDED_BY_EXPIRATION,
+            self::ENDED_BY_EMPTY_STOCK,
+            self::ENDED_BY_PRODUCT_DETACHMENT,
+            self::ENDED_BY_ERROR,
             self::ENDED_BY_UNKNOWN
-        ]
+        ];
     }
 
     /**

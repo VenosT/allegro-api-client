@@ -175,29 +175,29 @@ class ModificationDelivery implements ModelInterface, ArrayAccess
     public function getHandlingTimeAllowableValues()
     {
         return [
-            self::HANDLING_TIME_PT0_S
-            self::HANDLING_TIME_PT24_H
-            self::HANDLING_TIME_PT48_H
-            self::HANDLING_TIME_PT72_H
-            self::HANDLING_TIME_PT96_H
-            self::HANDLING_TIME_PT120_H
-            self::HANDLING_TIME_PT168_H
-            self::HANDLING_TIME_PT240_H
-            self::HANDLING_TIME_PT336_H
-            self::HANDLING_TIME_PT504_H
-            self::HANDLING_TIME_PT720_H
-            self::HANDLING_TIME_PT1440_H
-            self::HANDLING_TIME_P2_D
-            self::HANDLING_TIME_P3_D
-            self::HANDLING_TIME_P4_D
-            self::HANDLING_TIME_P5_D
-            self::HANDLING_TIME_P7_D
-            self::HANDLING_TIME_P10_D
-            self::HANDLING_TIME_P14_D
-            self::HANDLING_TIME_P21_D
-            self::HANDLING_TIME_P30_D
+            self::HANDLING_TIME_PT0_S,
+            self::HANDLING_TIME_PT24_H,
+            self::HANDLING_TIME_PT48_H,
+            self::HANDLING_TIME_PT72_H,
+            self::HANDLING_TIME_PT96_H,
+            self::HANDLING_TIME_PT120_H,
+            self::HANDLING_TIME_PT168_H,
+            self::HANDLING_TIME_PT240_H,
+            self::HANDLING_TIME_PT336_H,
+            self::HANDLING_TIME_PT504_H,
+            self::HANDLING_TIME_PT720_H,
+            self::HANDLING_TIME_PT1440_H,
+            self::HANDLING_TIME_P2_D,
+            self::HANDLING_TIME_P3_D,
+            self::HANDLING_TIME_P4_D,
+            self::HANDLING_TIME_P5_D,
+            self::HANDLING_TIME_P7_D,
+            self::HANDLING_TIME_P10_D,
+            self::HANDLING_TIME_P14_D,
+            self::HANDLING_TIME_P21_D,
+            self::HANDLING_TIME_P30_D,
             self::HANDLING_TIME_P60_D
-        ]
+        ];
     }
 
     /**

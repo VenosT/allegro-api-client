@@ -168,10 +168,10 @@ class SellerRebateDto implements ModelInterface, ArrayAccess
     public function getStatusAllowableValues()
     {
         return [
-            self::STATUS_ACTIVE
-            self::STATUS_INACTIVE
+            self::STATUS_ACTIVE,
+            self::STATUS_INACTIVE,
             self::STATUS_SUSPENDED
-        ]
+        ];
     }
 
     /**

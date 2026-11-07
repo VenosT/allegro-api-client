@@ -166,10 +166,10 @@ class ProductImageProposal implements ModelInterface, ArrayAccess
     public function getResolutionTypeAllowableValues()
     {
         return [
-            self::RESOLUTION_TYPE_UNRESOLVED
-            self::RESOLUTION_TYPE_ACCEPTED
+            self::RESOLUTION_TYPE_UNRESOLVED,
+            self::RESOLUTION_TYPE_ACCEPTED,
             self::RESOLUTION_TYPE_REJECTED
-        ]
+        ];
     }
 
     /**

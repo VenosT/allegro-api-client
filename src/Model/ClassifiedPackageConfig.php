@@ -171,9 +171,9 @@ class ClassifiedPackageConfig implements ModelInterface, ArrayAccess
     public function getTypeAllowableValues()
     {
         return [
-            self::TYPE_BASE
+            self::TYPE_BASE,
             self::TYPE_EXTRA
-        ]
+        ];
     }
 
     /**

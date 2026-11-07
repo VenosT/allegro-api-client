@@ -203,10 +203,10 @@ class ParcelDetails implements ModelInterface, ArrayAccess
     public function getStateAllowableValues()
     {
         return [
-            self::STATE_DRAFT
-            self::STATE_CREATED
+            self::STATE_DRAFT,
+            self::STATE_CREATED,
             self::STATE_CANCELLED
-        ]
+        ];
     }
 
     /**

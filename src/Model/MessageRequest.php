@@ -160,9 +160,9 @@ class MessageRequest implements ModelInterface, ArrayAccess
     public function getTypeAllowableValues()
     {
         return [
-            self::TYPE_REGULAR
+            self::TYPE_REGULAR,
             self::TYPE_END_REQUEST
-        ]
+        ];
     }
 
     /**

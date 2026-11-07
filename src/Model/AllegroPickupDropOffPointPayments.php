@@ -146,9 +146,9 @@ class AllegroPickupDropOffPointPayments implements ModelInterface, ArrayAccess
     public function getMethodAllowableValues()
     {
         return [
-            self::METHOD_CASH
+            self::METHOD_CASH,
             self::METHOD_CARD
-        ]
+        ];
     }
 
     /**

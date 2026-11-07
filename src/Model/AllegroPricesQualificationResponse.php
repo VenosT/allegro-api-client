@@ -146,9 +146,9 @@ class AllegroPricesQualificationResponse implements ModelInterface, ArrayAccess
     public function getStatusAllowableValues()
     {
         return [
-            self::STATUS_QUALIFIED
+            self::STATUS_QUALIFIED,
             self::STATUS_DISQUALIFIED
-        ]
+        ];
     }
 
     /**

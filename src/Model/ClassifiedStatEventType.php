@@ -34,11 +34,11 @@ class ClassifiedStatEventType
     public static function getAllowableEnumValues()
     {
         return [
-            self::SHOWED_PHONE_NUMBER
-            self::ASKED_QUESTION
-            self::CLICKED_ASK_QUESTION
-            self::ADDED_TO_FAVOURITES
+            self::SHOWED_PHONE_NUMBER,
+            self::ASKED_QUESTION,
+            self::CLICKED_ASK_QUESTION,
+            self::ADDED_TO_FAVOURITES,
             self::REMOVED_FROM_FAVOURITES
-        ]
+        ];
     }
 }

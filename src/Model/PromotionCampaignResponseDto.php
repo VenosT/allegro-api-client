@@ -166,14 +166,14 @@ class PromotionCampaignResponseDto implements ModelInterface, ArrayAccess
     public function getStatusAllowableValues()
     {
         return [
-            self::STATUS_REQUESTED
-            self::STATUS_SUSPENDED
-            self::STATUS_VERIFICATION
-            self::STATUS_ACCEPTED
-            self::STATUS_ACTIVE
-            self::STATUS_FINISHED
+            self::STATUS_REQUESTED,
+            self::STATUS_SUSPENDED,
+            self::STATUS_VERIFICATION,
+            self::STATUS_ACCEPTED,
+            self::STATUS_ACTIVE,
+            self::STATUS_FINISHED,
             self::STATUS_DECLINED
-        ]
+        ];
     }
 
     /**

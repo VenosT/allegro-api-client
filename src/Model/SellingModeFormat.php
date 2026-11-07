@@ -32,9 +32,9 @@ class SellingModeFormat
     public static function getAllowableEnumValues()
     {
         return [
-            self::BUY_NOW
-            self::AUCTION
+            self::BUY_NOW,
+            self::AUCTION,
             self::ADVERTISEMENT
-        ]
+        ];
     }
 }

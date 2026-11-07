@@ -224,12 +224,12 @@ class Rates implements ModelInterface, ArrayAccess
     public function getServiceAllowableValues()
     {
         return [
-            self::SERVICE_1
-            self::SERVICE_2
-            self::SERVICE_3
-            self::SERVICE_4
+            self::SERVICE_1,
+            self::SERVICE_2,
+            self::SERVICE_3,
+            self::SERVICE_4,
             self::SERVICE_5
-        ]
+        ];
     }
 
     /**

@@ -31,8 +31,8 @@ class AutomaticPricingRuleType
     public static function getAllowableEnumValues()
     {
         return [
-            self::EXCHANGE_RATE
+            self::EXCHANGE_RATE,
             self::FOLLOW_BY_ALLEGRO_MIN_PRICE
-        ]
+        ];
     }
 }

@@ -28,9 +28,9 @@ class AllegroCarrier
     public static function getAllowableEnumValues()
     {
         return [
-            self::UPS
-            self::ALLEGRO_ONE_KURIER
+            self::UPS,
+            self::ALLEGRO_ONE_KURIER,
             self::DPD
-        ]
+        ];
     }
 }

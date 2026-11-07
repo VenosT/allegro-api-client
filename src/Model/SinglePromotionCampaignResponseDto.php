@@ -157,10 +157,10 @@ class SinglePromotionCampaignResponseDto implements ModelInterface, ArrayAccess
     public function getStatusAllowableValues()
     {
         return [
-            self::STATUS_PENDING
-            self::STATUS_ACTIVE
+            self::STATUS_PENDING,
+            self::STATUS_ACTIVE,
             self::STATUS_SUSPENDED
-        ]
+        ];
     }
 
     /**

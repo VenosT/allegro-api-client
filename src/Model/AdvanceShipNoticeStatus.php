@@ -34,11 +34,11 @@ class AdvanceShipNoticeStatus
     public static function getAllowableEnumValues()
     {
         return [
-            self::DRAFT
-            self::IN_TRANSIT
-            self::UNPACKING
-            self::COMPLETED
+            self::DRAFT,
+            self::IN_TRANSIT,
+            self::UNPACKING,
+            self::COMPLETED,
             self::CANCELLED
-        ]
+        ];
     }
 }

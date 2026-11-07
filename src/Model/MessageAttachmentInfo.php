@@ -163,11 +163,11 @@ class MessageAttachmentInfo implements ModelInterface, ArrayAccess
     public function getStatusAllowableValues()
     {
         return [
-            self::STATUS__NEW
-            self::STATUS_SAFE
-            self::STATUS_UNSAFE
+            self::STATUS__NEW,
+            self::STATUS_SAFE,
+            self::STATUS_UNSAFE,
             self::STATUS_EXPIRED
-        ]
+        ];
     }
 
     /**

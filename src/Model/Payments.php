@@ -148,11 +148,11 @@ class Payments implements ModelInterface, ArrayAccess
     public function getInvoiceAllowableValues()
     {
         return [
-            self::INVOICE_VAT
-            self::INVOICE_VAT_MARGIN
-            self::INVOICE_WITHOUT_VAT
+            self::INVOICE_VAT,
+            self::INVOICE_VAT_MARGIN,
+            self::INVOICE_WITHOUT_VAT,
             self::INVOICE_NO_INVOICE
-        ]
+        ];
     }
 
     /**

@@ -171,9 +171,9 @@ class DeliveryService implements ModelInterface, ArrayAccess
     public function getOwnerAllowableValues()
     {
         return [
-            self::OWNER_ALLEGRO
+            self::OWNER_ALLEGRO,
             self::OWNER_CLIENT
-        ]
+        ];
     }
 
     /**

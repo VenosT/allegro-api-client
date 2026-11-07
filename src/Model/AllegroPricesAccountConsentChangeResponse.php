@@ -146,9 +146,9 @@ class AllegroPricesAccountConsentChangeResponse implements ModelInterface, Array
     public function getStatusAllowableValues()
     {
         return [
-            self::STATUS_ALLOWED
+            self::STATUS_ALLOWED,
             self::STATUS_DENIED
-        ]
+        ];
     }
 
     /**

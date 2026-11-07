@@ -156,9 +156,9 @@ class PromoOptionsCommandModification implements ModelInterface, ArrayAccess
     public function getModificationTimeAllowableValues()
     {
         return [
-            self::MODIFICATION_TIME_NOW
+            self::MODIFICATION_TIME_NOW,
             self::MODIFICATION_TIME_END_OF_CYCLE
-        ]
+        ];
     }
 
     /**

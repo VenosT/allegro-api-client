@@ -36,13 +36,13 @@ class ProcessingStatus
     public static function getAllowableEnumValues()
     {
         return [
-            self::QUEUEING
-            self::RUNNING
-            self::VALIDATED_AND_RUNNING
-            self::RUNNING_BUT_WITH_ERRORS
-            self::SUCCESSFUL
-            self::PARTIAL_SUCCESS
+            self::QUEUEING,
+            self::RUNNING,
+            self::VALIDATED_AND_RUNNING,
+            self::RUNNING_BUT_WITH_ERRORS,
+            self::SUCCESSFUL,
+            self::PARTIAL_SUCCESS,
             self::ERROR
-        ]
+        ];
     }
 }

@@ -32,9 +32,9 @@ class CheckoutFormFulfillmentShipmentSummaryLineItemsSent
     public static function getAllowableEnumValues()
     {
         return [
-            self::NONE
-            self::SOME
+            self::NONE,
+            self::SOME,
             self::ALL
-        ]
+        ];
     }
 }

@@ -149,12 +149,12 @@ class CheckoutFormDiscount implements ModelInterface, ArrayAccess
     public function getTypeAllowableValues()
     {
         return [
-            self::TYPE_COUPON
-            self::TYPE_BUNDLE
-            self::TYPE_MULTIPACK
-            self::TYPE_CROSSMULTIPACK
+            self::TYPE_COUPON,
+            self::TYPE_BUNDLE,
+            self::TYPE_MULTIPACK,
+            self::TYPE_CROSSMULTIPACK,
             self::TYPE_ALLEGRO_PRICES
-        ]
+        ];
     }
 
     /**

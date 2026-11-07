@@ -30,11 +30,11 @@ class MessageAuthorRole
     public static function getAllowableEnumValues()
     {
         return [
-            self::BUYER
-            self::SELLER
-            self::ADMIN
-            self::SYSTEM
+            self::BUYER,
+            self::SELLER,
+            self::ADMIN,
+            self::SYSTEM,
             self::FULFILLMENT
-        ]
+        ];
     }
 }

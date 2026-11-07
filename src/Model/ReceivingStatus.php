@@ -182,19 +182,19 @@ class ReceivingStatus implements ModelInterface, ArrayAccess
     public function getReasonCodeAllowableValues()
     {
         return [
-            self::REASON_CODE_SELLABLE
-            self::REASON_CODE_DAMAGED_PRODUCT
-            self::REASON_CODE_DAMAGED_IN_TRANSPORT
-            self::REASON_CODE_SHORT_EXPIRY_DATE
-            self::REASON_CODE_NO_BARCODE
-            self::REASON_CODE_NOT_IN_FULFILLMENT_CATEGORY
-            self::REASON_CODE_PRODUCT_NOT_ACCEPTABLE_IN_FULFILLMENT
-            self::REASON_CODE_UNACCEPTABLE_PRODUCT_VARIANT
-            self::REASON_CODE_UNACCEPTABLE_PRODUCT_SIZE
-            self::REASON_CODE_UNKNOWN_DAMAGE
-            self::REASON_CODE_UNKNOWN_REJECT
+            self::REASON_CODE_SELLABLE,
+            self::REASON_CODE_DAMAGED_PRODUCT,
+            self::REASON_CODE_DAMAGED_IN_TRANSPORT,
+            self::REASON_CODE_SHORT_EXPIRY_DATE,
+            self::REASON_CODE_NO_BARCODE,
+            self::REASON_CODE_NOT_IN_FULFILLMENT_CATEGORY,
+            self::REASON_CODE_PRODUCT_NOT_ACCEPTABLE_IN_FULFILLMENT,
+            self::REASON_CODE_UNACCEPTABLE_PRODUCT_VARIANT,
+            self::REASON_CODE_UNACCEPTABLE_PRODUCT_SIZE,
+            self::REASON_CODE_UNKNOWN_DAMAGE,
+            self::REASON_CODE_UNKNOWN_REJECT,
             self::REASON_CODE_UNSCANNABLE_BARCODE
-        ]
+        ];
     }
 
     /**

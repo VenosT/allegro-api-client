@@ -33,10 +33,10 @@ class CheckoutFormPaymentProvider
     public static function getAllowableEnumValues()
     {
         return [
-            self::P24
-            self::PAYU
-            self::OFFLINE
+            self::P24,
+            self::PAYU,
+            self::OFFLINE,
             self::EPT
-        ]
+        ];
     }
 }

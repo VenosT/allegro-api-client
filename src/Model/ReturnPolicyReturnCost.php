@@ -146,9 +146,9 @@ class ReturnPolicyReturnCost implements ModelInterface, ArrayAccess
     public function getCoveredByAllowableValues()
     {
         return [
-            self::COVERED_BY_SELLER
+            self::COVERED_BY_SELLER,
             self::COVERED_BY_BUYER
-        ]
+        ];
     }
 
     /**

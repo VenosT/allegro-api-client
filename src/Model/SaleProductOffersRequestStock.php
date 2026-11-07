@@ -152,10 +152,10 @@ class SaleProductOffersRequestStock implements ModelInterface, ArrayAccess
     public function getUnitAllowableValues()
     {
         return [
-            self::UNIT_UNIT
-            self::UNIT_PAIR
+            self::UNIT_UNIT,
+            self::UNIT_PAIR,
             self::UNIT_SET
-        ]
+        ];
     }
 
     /**

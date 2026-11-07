@@ -37,14 +37,14 @@ class CheckoutFormFulfillmentStatus
     public static function getAllowableEnumValues()
     {
         return [
-            self::_NEW
-            self::PROCESSING
-            self::READY_FOR_SHIPMENT
-            self::READY_FOR_PICKUP
-            self::SENT
-            self::PICKED_UP
-            self::CANCELLED
+            self::_NEW,
+            self::PROCESSING,
+            self::READY_FOR_SHIPMENT,
+            self::READY_FOR_PICKUP,
+            self::SENT,
+            self::PICKED_UP,
+            self::CANCELLED,
             self::SUSPENDED
-        ]
+        ];
     }
 }

@@ -176,10 +176,10 @@ class ParcelItemDetailsWithWaybill implements ModelInterface, ArrayAccess
     public function getTypeAllowableValues()
     {
         return [
-            self::TYPE_PACKAGE
-            self::TYPE_DOX
+            self::TYPE_PACKAGE,
+            self::TYPE_DOX,
             self::TYPE_PALLET
-        ]
+        ];
     }
 
     /**

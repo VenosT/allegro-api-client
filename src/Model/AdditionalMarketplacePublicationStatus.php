@@ -34,11 +34,11 @@ class AdditionalMarketplacePublicationStatus
     public static function getAllowableEnumValues()
     {
         return [
-            self::NOT_REQUESTED
-            self::PENDING
-            self::IN_PROGRESS
-            self::APPROVED
+            self::NOT_REQUESTED,
+            self::PENDING,
+            self::IN_PROGRESS,
+            self::APPROVED,
             self::REFUSED
-        ]
+        ];
     }
 }

@@ -33,10 +33,10 @@ class CheckoutFormStatus
     public static function getAllowableEnumValues()
     {
         return [
-            self::BOUGHT
-            self::FILLED_IN
-            self::READY_FOR_PROCESSING
+            self::BOUGHT,
+            self::FILLED_IN,
+            self::READY_FOR_PROCESSING,
             self::CANCELLED
-        ]
+        ];
     }
 }

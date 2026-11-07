@@ -34,11 +34,11 @@ class CheckoutFormPaymentType
     public static function getAllowableEnumValues()
     {
         return [
-            self::CASH_ON_DELIVERY
-            self::WIRE_TRANSFER
-            self::ONLINE
-            self::SPLIT_PAYMENT
+            self::CASH_ON_DELIVERY,
+            self::WIRE_TRANSFER,
+            self::ONLINE,
+            self::SPLIT_PAYMENT,
             self::EXTENDED_TERM
-        ]
+        ];
     }
 }

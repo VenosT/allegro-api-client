@@ -40,17 +40,17 @@ class AttachmentType
     public static function getAllowableEnumValues()
     {
         return [
-            self::MANUAL
-            self::SPECIAL_OFFER_RULES
-            self::COMPETITION_RULES
-            self::BOOK_EXCERPT
-            self::USER_MANUAL
-            self::INSTALLATION_INSTRUCTIONS
-            self::GAME_INSTRUCTIONS
-            self::ENERGY_LABEL
-            self::PRODUCT_INFORMATION_SHEET
-            self::TIRE_LABEL
+            self::MANUAL,
+            self::SPECIAL_OFFER_RULES,
+            self::COMPETITION_RULES,
+            self::BOOK_EXCERPT,
+            self::USER_MANUAL,
+            self::INSTALLATION_INSTRUCTIONS,
+            self::GAME_INSTRUCTIONS,
+            self::ENERGY_LABEL,
+            self::PRODUCT_INFORMATION_SHEET,
+            self::TIRE_LABEL,
             self::SAFETY_INFORMATION_MANUAL
-        ]
+        ];
     }
 }

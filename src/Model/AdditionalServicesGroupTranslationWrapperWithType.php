@@ -151,9 +151,9 @@ class AdditionalServicesGroupTranslationWrapperWithType implements ModelInterfac
     public function getTypeAllowableValues()
     {
         return [
-            self::TYPE_MANUAL
+            self::TYPE_MANUAL,
             self::TYPE_AUTO
-        ]
+        ];
     }
 
     /**

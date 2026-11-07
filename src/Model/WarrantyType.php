@@ -31,8 +31,8 @@ class WarrantyType
     public static function getAllowableEnumValues()
     {
         return [
-            self::MANUFACTURER
+            self::MANUFACTURER,
             self::SELLER
-        ]
+        ];
     }
 }

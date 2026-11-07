@@ -36,13 +36,13 @@ class OrderEventType
     public static function getAllowableEnumValues()
     {
         return [
-            self::BOUGHT
-            self::FILLED_IN
-            self::READY_FOR_PROCESSING
-            self::BUYER_CANCELLED
-            self::FULFILLMENT_STATUS_CHANGED
-            self::BUYER_MODIFIED
+            self::BOUGHT,
+            self::FILLED_IN,
+            self::READY_FOR_PROCESSING,
+            self::BUYER_CANCELLED,
+            self::FULFILLMENT_STATUS_CHANGED,
+            self::BUYER_MODIFIED,
             self::AUTO_CANCELLED
-        ]
+        ];
     }
 }

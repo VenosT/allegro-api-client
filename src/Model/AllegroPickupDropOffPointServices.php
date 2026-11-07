@@ -146,9 +146,9 @@ class AllegroPickupDropOffPointServices implements ModelInterface, ArrayAccess
     public function getTypeAllowableValues()
     {
         return [
-            self::TYPE_PICKUP
+            self::TYPE_PICKUP,
             self::TYPE_DROPOFF
-        ]
+        ];
     }
 
     /**

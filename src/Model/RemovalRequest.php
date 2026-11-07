@@ -160,9 +160,9 @@ class RemovalRequest implements ModelInterface, ArrayAccess
     public function getSourceAllowableValues()
     {
         return [
-            self::SOURCE_SELLER
+            self::SOURCE_SELLER,
             self::SOURCE_ADMIN
-        ]
+        ];
     }
 
     /**

@@ -146,9 +146,9 @@ class ProductProposalsResponsePublication implements ModelInterface, ArrayAccess
     public function getStatusAllowableValues()
     {
         return [
-            self::STATUS_PROPOSED
+            self::STATUS_PROPOSED,
             self::STATUS_LISTED
-        ]
+        ];
     }
 
     /**

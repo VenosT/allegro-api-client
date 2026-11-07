@@ -151,10 +151,10 @@ class DeliverySettingsResponseJoinPolicy implements ModelInterface, ArrayAccess
     public function getStrategyAllowableValues()
     {
         return [
-            self::STRATEGY_MIN
-            self::STRATEGY_MAX
+            self::STRATEGY_MIN,
+            self::STRATEGY_MAX,
             self::STRATEGY_SUM
-        ]
+        ];
     }
 
     /**

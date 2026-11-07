@@ -29,10 +29,10 @@ class DisputeAuthorRole
     public static function getAllowableEnumValues()
     {
         return [
-            self::BUYER
-            self::SELLER
-            self::ADMIN
+            self::BUYER,
+            self::SELLER,
+            self::ADMIN,
             self::FULFILLMENT
-        ]
+        ];
     }
 }

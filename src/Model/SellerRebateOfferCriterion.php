@@ -152,10 +152,10 @@ class SellerRebateOfferCriterion implements ModelInterface, ArrayAccess
     public function getTypeAllowableValues()
     {
         return [
-            self::TYPE_CONTAINS_OFFERS
-            self::TYPE_OFFERS_ASSIGNED_EXTERNALLY
+            self::TYPE_CONTAINS_OFFERS,
+            self::TYPE_OFFERS_ASSIGNED_EXTERNALLY,
             self::TYPE_ALL_OFFERS
-        ]
+        ];
     }
 
     /**

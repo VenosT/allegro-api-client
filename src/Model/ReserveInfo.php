@@ -157,11 +157,11 @@ class ReserveInfo implements ModelInterface, ArrayAccess
     public function getStatusAllowableValues()
     {
         return [
-            self::STATUS_NOT_ENOUGH_DATA
-            self::STATUS_LOW_STOCK
-            self::STATUS_NORMAL
+            self::STATUS_NOT_ENOUGH_DATA,
+            self::STATUS_LOW_STOCK,
+            self::STATUS_NORMAL,
             self::STATUS_EXCESS_ONE_YEAR
-        ]
+        ];
     }
 
     /**
